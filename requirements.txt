@@ -1,7 +1,7 @@
-ctransformers==0.2.5 #For using the quantized llama 2 model
-sentence-transformers==2.2.2 #Open source hugging face embeddings model
-langchain==0.0.225 #Main framework to build LLM apps
+ctransformers #For using the quantized llama 2 model
+langchain #Main framework to build LLM apps
 pinecone #Vector database for indexing and storing embeddings
 flask #Web framework 
 python-dotenv #For loading keys stored as environment variables from .env file
-
+ipykernel #For running Jupyter notebooks
+langchain-community
